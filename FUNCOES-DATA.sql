@@ -26,6 +26,7 @@ SS - Segundo
 --pega um dado no tipo data e passa para uma string
 SELECT TO_CHAR(SYSDATE, 'DD/MM/YYYY HH24:MI:SS') FROM DUAL;
 SELECT NOME, IDADE, TO_CHAR(DATA_DE_NASCIMENTO, 'DD MONTH YYYY, DAY') FROM TABELA_DE_CLIENTES;
+SELECT SYSDATE, TO_CHAR(SYSDATE, 'YYYY') FROM DUAL; --Pega só o ano da data
 
 --TO_DATE
 --pega uma string que representa uma data e converte para o tipo Date
